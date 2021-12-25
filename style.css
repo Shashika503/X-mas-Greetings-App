@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Heebo:wght@500&family=Kanit:wght@500&family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overflow: hidden;
+    background: #00101a;
+  }
+  body {
+    font-family: 'Kanit', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-style: ital;
+  }
+  .webgl {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  button {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-appearance: none;
+    background: rgb(10, 10, 10);
+    color: rgb(255, 246, 246);
+    font: inherit;
+    font-size: 1.5rem;
+    padding: 0.75rem 2.5rem;
+    border: none;
+    border-radius: 1.75rem;
+    cursor: pointer;
+  }
+  
+  h1 {
+    position: absolute;
+    color: rgb(65, 243, 213);
+    top: 3rem;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  h2 {
+    position: absolute;
+    color: rgb(200, 235, 103);
+    top: 25rem;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  footer {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
